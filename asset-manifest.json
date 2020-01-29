@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ZTMrobofriends/static/css/main.92b6a449.chunk.css",
+    "main.js": "/ZTMrobofriends/static/js/main.a17e36fa.chunk.js",
+    "main.js.map": "/ZTMrobofriends/static/js/main.a17e36fa.chunk.js.map",
+    "runtime-main.js": "/ZTMrobofriends/static/js/runtime-main.bdb3ba56.js",
+    "runtime-main.js.map": "/ZTMrobofriends/static/js/runtime-main.bdb3ba56.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/ZTMrobofriends/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.b0983e84.chunk.js": "/ZTMrobofriends/static/js/2.b0983e84.chunk.js",
+    "static/js/2.b0983e84.chunk.js.map": "/ZTMrobofriends/static/js/2.b0983e84.chunk.js.map",
+    "index.html": "/ZTMrobofriends/index.html",
+    "precache-manifest.b3c763265264cc6b58c00f2b08c85051.js": "/ZTMrobofriends/precache-manifest.b3c763265264cc6b58c00f2b08c85051.js",
+    "service-worker.js": "/ZTMrobofriends/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/ZTMrobofriends/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.92b6a449.chunk.css.map": "/ZTMrobofriends/static/css/main.92b6a449.chunk.css.map",
+    "static/js/2.b0983e84.chunk.js.LICENSE": "/ZTMrobofriends/static/js/2.b0983e84.chunk.js.LICENSE",
+    "static/media/App.css": "/ZTMrobofriends/static/media/SEGA.12a3db8b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdb3ba56.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.b0983e84.chunk.js",
+    "static/css/main.92b6a449.chunk.css",
+    "static/js/main.a17e36fa.chunk.js"
+  ]
+}
