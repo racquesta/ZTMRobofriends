@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ZTMrobofriends/static/css/main.92b6a449.chunk.css",
-    "main.js": "/ZTMrobofriends/static/js/main.a17e36fa.chunk.js",
-    "main.js.map": "/ZTMrobofriends/static/js/main.a17e36fa.chunk.js.map",
+    "main.js": "/ZTMrobofriends/static/js/main.3bd66f42.chunk.js",
+    "main.js.map": "/ZTMrobofriends/static/js/main.3bd66f42.chunk.js.map",
     "runtime-main.js": "/ZTMrobofriends/static/js/runtime-main.bdb3ba56.js",
     "runtime-main.js.map": "/ZTMrobofriends/static/js/runtime-main.bdb3ba56.js.map",
     "static/css/2.eb45ad44.chunk.css": "/ZTMrobofriends/static/css/2.eb45ad44.chunk.css",
     "static/js/2.b0983e84.chunk.js": "/ZTMrobofriends/static/js/2.b0983e84.chunk.js",
     "static/js/2.b0983e84.chunk.js.map": "/ZTMrobofriends/static/js/2.b0983e84.chunk.js.map",
     "index.html": "/ZTMrobofriends/index.html",
-    "precache-manifest.b3c763265264cc6b58c00f2b08c85051.js": "/ZTMrobofriends/precache-manifest.b3c763265264cc6b58c00f2b08c85051.js",
+    "precache-manifest.f1101cabe9e4fe476e4054e52c74ae89.js": "/ZTMrobofriends/precache-manifest.f1101cabe9e4fe476e4054e52c74ae89.js",
     "service-worker.js": "/ZTMrobofriends/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/ZTMrobofriends/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.92b6a449.chunk.css.map": "/ZTMrobofriends/static/css/main.92b6a449.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.b0983e84.chunk.js",
     "static/css/main.92b6a449.chunk.css",
-    "static/js/main.a17e36fa.chunk.js"
+    "static/js/main.3bd66f42.chunk.js"
   ]
 }
