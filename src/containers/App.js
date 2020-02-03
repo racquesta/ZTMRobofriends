@@ -1,14 +1,29 @@
 import React, { Component, Fragment } from "react";
+import { connect } from "react-redux";
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
 import Scroll from "../components/Scroll";
+import ErrorBoundary from "../components/ErrorBoundary";
 import "./App.css";
+
+import { setSearchField } from "../actions.js";
+
+const mapStateToProps = state => {
+  return {
+    searchField: state.searchField
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    onSearchChange: event => dispatch(setSearchField(event.target.value))
+  };
+};
 
 class App extends Component {
   state = {
     loading: true,
-    robots: [],
-    searchValue: /.*?/i
+    robots: []
   };
 
   componentDidMount() {
@@ -22,15 +37,12 @@ class App extends Component {
       );
   }
 
-  handleChange = ({ target: { value } }) => {
-    this.setState({
-      searchValue: new RegExp(value, "i")
-    });
-  };
-
   render() {
-    const { robots, loading, searchValue } = this.state;
-    const filteredRobots = robots.filter(({ name }) => searchValue.test(name));
+    const { robots, loading } = this.state;
+    const { searchField, onSearchChange } = this.props;
+    const filteredRobots = robots.filter(({ name }) =>
+      new RegExp(searchField, "i").test(name)
+    );
     return (
       <div className="tc">
         {loading ? (
@@ -38,9 +50,11 @@ class App extends Component {
         ) : (
           <Fragment>
             <h1 className="f2">RoboFriends</h1>
-            <SearchBox handleChange={this.handleChange} />
+            <SearchBox handleChange={onSearchChange} />
             <Scroll>
-              <CardList robots={filteredRobots} />
+              <ErrorBoundary>
+                <CardList robots={filteredRobots} />
+              </ErrorBoundary>
             </Scroll>
           </Fragment>
         )}
@@ -48,4 +62,5 @@ class App extends Component {
     );
   }
 }
-export default App;
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
